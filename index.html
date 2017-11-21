@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Comatible" content="ie-edge">
+    <title>stopwatch demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="content">
+
+    <fieldset>
+        <legend>Stopwatch Demo</legend>
+            <p id="showTimer"></p>
+            <button id="start">start/stop</button>
+            <button id="reset">reset</button>
+            <button id="recordTime">record time</button>
+    </fieldset>
+
+    <div class="records">
+      <p class="text">past times</p>
+      <ul id="records"></ul>
+    </div>
+    <div class="instructions"><p>*To start the stopwatch use "start" button or "s" key.</p>
+         <p>*To record time use "record time" button or "t" key.</p>
+         <p>*To reset the stopwatch use "reset" button or "r" key</p>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
